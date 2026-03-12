@@ -1,7 +1,7 @@
 SRR_ID,Experiment_Name,Condition_Group,Category,Sample_Name,DL_Status,DL_JobID,Fastq_Dir,CR_Status,CR_JobID,CR_Out_Dir,Split_Count,Is_Duplicate
 SRR17720186,FETAL_brain_IND1_EC,FETAL_brain,sorted,FETAL_brain_IND1_EC,COMPLETED,144402,/home/gahe00001/natpro/data_fastqs/FETAL_brain/sorted/FETAL_brain_IND1_EC,COMPLETED,144774,/home/gahe00001/natpro/data_cellranger/FETAL_brain/sorted/FETAL_brain_IND1_EC,,
-SRR17720184,FETAL_brain_IND2_IND3_EC,FETAL_brain,sorted,FETAL_brain_IND2_IND3_EC,COMPLETED,144403,/home/gahe00001/natpro/data_fastqs/FETAL_brain/sorted/FETAL_brain_IND2_IND3_EC,RUNNING_CR_RUNNING,144775,,,
-SRR17720199,FETAL_brain_IND4_EC,FETAL_brain,sorted,FETAL_brain_IND4_EC,COMPLETED,144404,/home/gahe00001/natpro/data_fastqs/FETAL_brain/sorted/FETAL_brain_IND4_EC,RUNNING_CR_RUNNING,144776,,,
+SRR17720184,FETAL_brain_IND2_IND3_EC,FETAL_brain,sorted,FETAL_brain_IND2_IND3_EC,COMPLETED,144403,/home/gahe00001/natpro/data_fastqs/FETAL_brain/sorted/FETAL_brain_IND2_IND3_EC,COMPLETED,144775,/home/gahe00001/natpro/data_cellranger/FETAL_brain/sorted/FETAL_brain_IND2_IND3_EC,,
+SRR17720199,FETAL_brain_IND4_EC,FETAL_brain,sorted,FETAL_brain_IND4_EC,COMPLETED,144404,/home/gahe00001/natpro/data_fastqs/FETAL_brain/sorted/FETAL_brain_IND4_EC,COMPLETED,144776,/home/gahe00001/natpro/data_cellranger/FETAL_brain/sorted/FETAL_brain_IND4_EC,,
 SRR17720198,FETAL_brain_IND5_EC,FETAL_brain,sorted,FETAL_brain_IND5_EC,COMPLETED,144405,/home/gahe00001/natpro/data_fastqs/FETAL_brain/sorted/FETAL_brain_IND5_EC,RUNNING_CR_RUNNING,144777,,,
 SRR17720222,FETAL_brain_1_all_cells,FETAL_brain,unsorted,FETAL_brain_1_all_cells,COMPLETED,144634,/home/gahe00001/natpro/data_fastqs/FETAL_brain/unsorted/FETAL_brain_1_all_cells,PENDING,,,3,
 SRR17720221,FETAL_brain_2_all_cells,FETAL_brain,unsorted,FETAL_brain_2_all_cells,SUBMITTED,144407,,PENDING,,,,
@@ -14,7 +14,7 @@ SRR28072447,FETAL_brain_8_all_cells,FETAL_brain,unsorted,FETAL_brain_8_all_cells
 SRR28072448,FETAL_brain_8_all_cells,FETAL_brain,unsorted,FETAL_brain_8_all_cells,COMPLETED,,,PENDING,,,,duplicate
 SRR17720224,FETAL_periphery_IND2_EC,FETAL_periphery,sorted,FETAL_periphery_IND2_EC,COMPLETED,144415,/home/gahe00001/natpro/data_fastqs/FETAL_periphery/sorted/FETAL_periphery_IND2_EC,RUNNING_CR_RUNNING,144778,,,
 SRR17720200,FETAL_periphery_IND3_EC,FETAL_periphery,sorted,FETAL_periphery_IND3_EC,COMPLETED,144475,/home/gahe00001/natpro/data_fastqs/FETAL_periphery/sorted/FETAL_periphery_IND3_EC,RUNNING_CR_RUNNING,144779,,3,
-SRR17720188,FETAL_periphery_IND4_EC,FETAL_periphery,sorted,FETAL_periphery_IND4_EC,COMPLETED,144476,/home/gahe00001/natpro/data_fastqs/FETAL_periphery/sorted/FETAL_periphery_IND4_EC,RUNNING_CR_RUNNING,144780,,4,
+SRR17720188,FETAL_periphery_IND4_EC,FETAL_periphery,sorted,FETAL_periphery_IND4_EC,COMPLETED,144476,/home/gahe00001/natpro/data_fastqs/FETAL_periphery/sorted/FETAL_periphery_IND4_EC,COMPLETED,144780,/home/gahe00001/natpro/data_cellranger/FETAL_periphery/sorted/FETAL_periphery_IND4_EC,4,
 SRR17720151,FETAL_periphery_IND5.1_EC,FETAL_periphery,sorted,FETAL_periphery_IND5.1_EC,COMPLETED,144477,/home/gahe00001/natpro/data_fastqs/FETAL_periphery/sorted/FETAL_periphery_IND5.1_EC,RUNNING_CR_RUNNING,144781,,4,
 SRR17720219,FETAL_periphery_IND5.2_EC,FETAL_periphery,sorted,FETAL_periphery_IND5.2_EC,COMPLETED,144478,/home/gahe00001/natpro/data_fastqs/FETAL_periphery/sorted/FETAL_periphery_IND5.2_EC,PENDING,,,4,
 SRR17720208,FETAL_periphery_IND5.3_EC,FETAL_periphery,sorted,FETAL_periphery_IND5.3_EC,COMPLETED,144479,/home/gahe00001/natpro/data_fastqs/FETAL_periphery/sorted/FETAL_periphery_IND5.3_EC,PENDING,,,4,
@@ -52,7 +52,7 @@ SRR28072433,TL_patient10_all_cells_2,TL,unsorted,TL_patient10_all_cells_2,COMPLE
 SRR28072434,TL_patient10_all_cells_2,TL,unsorted,TL_patient10_all_cells_2,COMPLETED,,,PENDING,,,,duplicate
 SRR17720216,TL_patient5_all_cells,TL,unsorted,TL_patient5_all_cells,COMPLETED,144642,/home/gahe00001/natpro/data_fastqs/TL/unsorted/TL_patient5_all_cells,PENDING,,,3,
 SRR17720214,TL_patient7_all_cells,TL,unsorted,TL_patient7_all_cells,COMPLETED,144643,/home/gahe00001/natpro/data_fastqs/TL/unsorted/TL_patient7_all_cells,PENDING,,,3,
-SRR17720213,TL_patient8_all_cells,TL,unsorted,TL_patient8_all_cells,RUNNING_GZIPPING,144675,,PENDING,,,3,
+SRR17720213,TL_patient8_all_cells,TL,unsorted,TL_patient8_all_cells,COMPLETED,144675,/home/gahe00001/natpro/data_fastqs/TL/unsorted/TL_patient8_all_cells,PENDING,,,3,
 SRR17720212,TL_patient9_all_cells,TL,unsorted,TL_patient9_all_cells,COMPLETED,144676,/home/gahe00001/natpro/data_fastqs/TL/unsorted/TL_patient9_all_cells,PENDING,,,3,
 SRR28072470,TL_patient9_all_cells_1,TL,unsorted,TL_patient9_all_cells_1,COMPLETED,144677,/home/gahe00001/natpro/data_fastqs/TL/unsorted/TL_patient9_all_cells_1,PENDING,,,3,
 SRR28072471,TL_patient9_all_cells_1,TL,unsorted,TL_patient9_all_cells_1,COMPLETED,,,PENDING,,,,duplicate
@@ -124,7 +124,7 @@ SRR17720145,MEN_patient4_EC,MEN,sorted,MEN_patient4_EC,COMPLETED,144613,/home/ga
 SRR17720223,MEN_patient5_EC,MEN,sorted,MEN_patient5_EC,COMPLETED,144614,/home/gahe00001/natpro/data_fastqs/MEN/sorted/MEN_patient5_EC,PENDING,,,3,
 SRR17720160,MEN_patient3_all_cells,MEN,unsorted,MEN_patient3_all_cells,COMPLETED,144747,/home/gahe00001/natpro/data_fastqs/MEN/unsorted/MEN_patient3_all_cells,PENDING,,,3,
 SRR17720158,MEN_patient4_all_cells,MEN,unsorted,MEN_patient4_all_cells,COMPLETED,144748,/home/gahe00001/natpro/data_fastqs/MEN/unsorted/MEN_patient4_all_cells,PENDING,,,3,
-SRR17720187,MEN_patient5_all_cells,MEN,unsorted,MEN_patient5_all_cells,RUNNING_GZIPPING,144749,,PENDING,,,3,
+SRR17720187,MEN_patient5_all_cells,MEN,unsorted,MEN_patient5_all_cells,COMPLETED,144749,/home/gahe00001/natpro/data_fastqs/MEN/unsorted/MEN_patient5_all_cells,PENDING,,,3,
 SRR28072390,MEN_patient1_EC_bulkRNA-seq,MEN,bulkRNA,MEN_patient1_EC_bulkRNA-seq,PENDING,,,PENDING,,,,
 SRR28072389,MEN_patient2_EC_bulkRNA-seq,MEN,bulkRNA,MEN_patient2_EC_bulkRNA-seq,PENDING,,,PENDING,,,,
 SRR28072388,MEN_patient3_EC_bulkRNA-seq,MEN,bulkRNA,MEN_patient3_EC_bulkRNA-seq,PENDING,,,PENDING,,,,
